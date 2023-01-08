@@ -12,15 +12,18 @@ nav a {
   text-decoration: none;
   
 }
-.container {
+.container { 
   max-width: 950px;
-  padding: 5px 0;
-  margin: 0 auto;
+  margin: auto;
 }
-.row {
+.row { 
+  background-image: url(Rectangle 2.png); 
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+
 }
+  
+  
 header {
   background-image: url(./Group1.png);
   width: 100%;
@@ -31,18 +34,63 @@ header {
   color:black;
 
   justify-content:center;
-  align-items:center;
+  align-items:center; 
+
 }
-header h1{
-  margin:0;
-  font-size:43px;
+.btn {
+  background-image: url(./f_993.png);
+  text-align: end;
+
+  
 }
-header a { 
+.block-6 {
+  width:100%;
+  height: max-content;
+
+  }
+section {
+  background-color: #1A1F25;
+  margin-inline: auto;
+  color: #e2e5e8;
+  text-decoration:none;
+}
+article {
+  background-image: url(./13la.png);
+  width: 800%;
+  height: 500px;
+}
+main {
+   background-image: url(./Rectangle\ 4.png);
+   width: 50%;
+   height: 500px;
+   text-align: center;
+
+}
+footer {
+  width: 100%;
+  height: auto;
+  background: #17181C;
+  margin:0 auto;
+  text-align: start;
+  padding-top: 100px;
+}
+footer div {
+  display: flex;
   color: white;
-  text-decoration: none;
-  font-size:13px;
+  font-size: 20px;
+  margin-left: 15px;
 }
-header p {
-  font-size: 15px;
-  margin-bottom: 26px;
+.contact {
+  display: flex;
+  justify-content: end;
+  width: 15px;
+  height: 15px;
 }
+.social {
+display: flex;
+justify-content: end;
+width:10px;
+height: 10px;
+}
+  
+  
